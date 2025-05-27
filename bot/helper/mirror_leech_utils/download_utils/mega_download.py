@@ -1,7 +1,7 @@
 from secrets import token_hex
 from aiofiles.os import makedirs
 
-from mega import MegaApi
+from mega.mega import MegaApi
 
 from .... import LOGGER, task_dict, task_dict_lock
 from ....core.config_manager import Config
